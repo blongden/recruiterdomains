@@ -11,7 +11,7 @@ cat <<EOF
 	</author>
 EOF
 
-split -l 56 domains.txt split-domain-
+split -l 70 domains.txt split-domain-
 for x in split-domain-*; do
     cat <<EOF
 	<entry>
